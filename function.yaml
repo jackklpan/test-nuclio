@@ -1,0 +1,15 @@
+apiVersion: nuclio.io/v1
+kind: Function
+metadata:
+  annotations:
+    nuclio.io/generated_by: function generated at 25-07-2019 from /Users/jackpan/Git/InfuseAI/nuclio/jupyter-test2.ipynb
+  labels:
+    nuclio.io/tag: v0.1
+spec:
+  build:
+    commands: []
+    noBaseImagesPull: true
+  env: []
+  handler: jupyter-test2:handler
+  runtime: python:3.6
+  volumes: []
